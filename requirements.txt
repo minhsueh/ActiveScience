@@ -1,0 +1,5 @@
+arxiv==2.1.0
+openai==1.26.0
+neo4j==5.20.0
+pandas==2.2.2
+numpy==1.26.4
