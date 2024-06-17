@@ -12,6 +12,14 @@ To solve this question, I utilize scientific reports, a large language model, an
 
 In this framework, I construct **an automatic pipeline to generate a knowledge graph from unstructured scientific reports.** The basic modules in ActiveScience—article input, large language model, and knowledge graph implementation—are adaptable to various implementations. For instance, while this demonstration uses ChatGPT 3.5, it can be modified to incorporate domain-specific large language models. Additionally, the granularity of the knowledge graph can vary based on the input articles, allowing for flexibility in topic depth. This framework is versatile, serving not only researchers but also educational purposes, providing a valuable tool for knowledge extraction and dissemination across different fields.
 
+![alt text](./ref/KG.png)
+
+<p style="text-align: center;">The visualization of the constructed knowledge graph.</p>
+
+![alt text](./ref/example1.png)
+
+<p style="text-align: center;">The visualization of the sub-knowledge graph from https://arxiv.org/abs/2207.05343v1.</p>
+
 ## Futrue works
 
 As this work aims to demonstrate the fundamental pipeline of ActiveScience, here are several points to improve model accuracy for actual utility:
